@@ -7,15 +7,17 @@ Description
 ===========
 
 This ZenPack provides datasource ComplexPingDataSource, which check device status in few steps:
+
     1. check gateway, if not available, generate an event, otherwise - continue checks
     2. сheck management interface available(HP iLO, Dell DRAC ..)
     3. check operation system ip available(manageIp in Zenoss)
+
 Zenpack should be used with option `zPingMonitoringIgnore` set to `true`, because once a standard zenping has failed,
 all data collection will all be suspended(zenpack will be blocked) until ping access is restore.
 
 Issues:
    - When zenpack generate an event of device unavailable, device status will not changed to DOWN,
-   so other data collection continue keep trying collect data
+   so other data collection continue keep trying to collect data
 
 Requirements & Dependencies
 ===========================
