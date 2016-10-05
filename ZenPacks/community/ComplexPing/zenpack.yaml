@@ -1,0 +1,35 @@
+name: ZenPacks.community.ComplexPing
+
+zProperties:
+  zGatewayEnable:
+    category: ComplexPing
+    type: boolean
+    default: true
+  zManageInterfaceEnable:
+    category: ComplexPing
+    type: boolean
+    default: true
+  zManageInterfaceIP:
+    category: ComplexPing
+    type: string
+    default: ""
+  zComplexPingInterval:
+    category: ComplexPing
+    type: int
+    default: 300
+  zComplexPingTimeout:
+    category: ComplexPing
+    type: int
+    default: 5
+
+device_classes:
+  /Server:
+
+    templates:
+      ComplexPing:
+
+        datasources:
+          status_ping:
+            type: ComplexPing
+            severity: 4
+            eventKey: ComplexPing

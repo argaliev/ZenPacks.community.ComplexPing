@@ -1,0 +1,14 @@
+<objects>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'Ping', 'Gateway') -->
+<object id="/zport/dmd/Events/Status/Ping/Gateway" module="Products.ZenEvents.EventClass" class="EventClass">
+</object>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'Ping', 'Hardware') -->
+<object id="/zport/dmd/Events/Status/Ping/Hardware" module="Products.ZenEvents.EventClass" class="EventClass">
+</object>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'Ping', 'ManagePort') -->
+<object id="/zport/dmd/Events/Status/Ping/ManagePort" module="Products.ZenEvents.EventClass" class="EventClass">
+</object>
+<!-- ('', 'zport', 'dmd', 'Events', 'Status', 'Ping', 'OS') -->
+<object id="/zport/dmd/Events/Status/Ping/OS" module="Products.ZenEvents.EventClass" class="EventClass">
+</object>
+</objects>
