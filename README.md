@@ -15,7 +15,7 @@ all data collection will all be suspended(zenpack will be blocked) until ping ac
 
 Issues:
    - When zenpack generate an event of device unavailable, device status will not changed to DOWN,
-   so other data collection continue keep truing collect data
+   so other data collection continue keep trying collect data
 
 Requirements & Dependencies
 ===========================
